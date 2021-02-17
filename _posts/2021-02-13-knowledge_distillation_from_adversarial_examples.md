@@ -9,9 +9,9 @@ katex: true
 ---
 
 <!-- Load KaTeX -->
-<link rel="stylesheet" href="/assets/katex/katex.min.css">
+<!-- <link rel="stylesheet" href="/assets/katex/katex.min.css">
 <script src="/assets/katex/katex.min.js"></script>
-<script defer src="/assets/katex/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script defer src="/assets/katex/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script> -->
 
 ## Introduction and Background
 Adversarial vulnerability is a fundamental limitation of deep neural networks which remains poorly understood. Recent work suggests that adversarial attacks exploit the fact that non-robust models rely on superficial statistics to form predictions. Ilyas et al. discuss this hypothesis in [this article]() and [this paper](). In a nutshell, the authors propose that there may be patterns of pixels that are highly predictive of the image's class label but appear non-sensical to humans.
