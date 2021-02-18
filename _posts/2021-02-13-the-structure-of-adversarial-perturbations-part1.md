@@ -50,7 +50,7 @@ $$ \begin{align}
 
 Where a norm-bounded perturbation $$\boldsymbol{\delta}$$ is added to a source image $$\textbf{x}_s$$ so as to produce a similar representation to that of a randomly selected target image $$\textbf{x}_t$$.  Denoting the encoder by $$E(.)$$ and the decoder by $$D(.)$$, the success of the attack is determined by the squared error between the target $$\textbf{x}_t$$ and the reconstruction $$D \circ E(\textbf{x}_s + \delta)$$. Examples of targeted adversarial attacks on images from the CelebA dataset are shown below.
 
-<img src="images/attack_pair.png" width="750">
+<img src="/assets/img/adversarial_pair.png" width="750">
 
 With the attack objective shown above, we generate a training set of adversarial input-target pairs $$(\textbf{x}_s + \boldsymbol{\delta}, \textbf{x}_t)$$, much like the experimental procedure described by Ilyas et al. \cite{}. Interestingly, we observe that a newly initialized autoencoder trained on the adversarial training set learns to reconstruct unperturbed images from the standard test set. In our case, the added perturbation $$\boldsymbol{\delta}$$ isn't merely predictive of a class label, but of the target image!
 
@@ -108,7 +108,7 @@ $$
 $$
 
 
-The output of $$\Phi \textbf{x}$$ is $$(\alpha_1, \alpha_2, ..., \alpha_MS)^T$$ whose norm must be much larger than $$\twonorm{\textbf{n}}$$ if the number of principal components is chosen well. We can immediately see that for a perturbation $$\boldsymbol{\delta}$$ to be successful, we 
+The output of $$\Phi \textbf{x}$$ is $$(\alpha_1, \alpha_2, ..., \alpha_MS)^T$$ whose norm must be much larger than $$\twonorm{\textbf{n}}$$ if the number of principal components is chosen well. We can immediately see that for a perturbation $$\boldsymbol{\delta}$$ to be successful, we
 
 
 
