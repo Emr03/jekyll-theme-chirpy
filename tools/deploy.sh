@@ -34,6 +34,7 @@ init() {
 }
 
 backup() {
+  git checkout master _site
   mv _site/* "$_backup_dir"
   mv .git "$_backup_dir"
 
