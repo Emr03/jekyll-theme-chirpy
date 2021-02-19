@@ -108,8 +108,16 @@ $$
 $$
 
 
-The output of $$\Phi \textbf{x}$$ is $$(\alpha_1, \alpha_2, ..., \alpha_MS)^T$$ whose norm must be much larger than $$\twonorm{\textbf{n}}$$ if the number of principal components is chosen well. We can immediately see that for a perturbation $$\boldsymbol{\delta}$$ to be successful, we
+The output of $$\Phi \textbf{x}$$ is $$(\alpha_1, \alpha_2, ..., \alpha_M)^T$$ whose norm must be much larger than $$\twonorm{\textbf{n}}$$ if the number of principal components is chosen well. We can immediately see that for a perturbation $$\boldsymbol{\delta}$$ to be successful, $$\boldsymbol{\delta}$$ must be aligned with one or more principal components. In fact, using the form for $$\boldsymbol{\delta}$$ derived above, (after a few algebraic manipulations) we see that the optimal $$\ell2$$-bounded perturbation which passes as $$\textbf{x}$$ is given by $$\boldsymbol{\delta_t} = \frac{1}{\lambda}\Phi^T \Phi \textbf{x}$$ which is just a rescaling of $$\textbf{x}$$. Since the row vectors of $$\Phi$$ are orthonormal and $$\twonorm{\boldsymbol{\delta}}$$ is much smaller than $$\twonorm{\textbf{x}}$$ it follows (by Cauchy-Schwarz) that $${\boldsymbol{\delta}}$$ cannot be a successful attack. A linear encoder obtained from PCA is therefore not vulnerable to adversarial attack. However, natural images aren't well-captured by linear PCA. Sparse coding has been successfully applied to denoising, image compression and super-resolution of natural images. Recent work has also highlighted the connection between sparse coding and CNN's \cite{}. We therefore consider the input to be a sparse combination of dictionary atoms rather than a dense combination of principal directions.
 
+Compressive sensing is an effective method for sparse signal compression \cite{Cands2005StableSR}. Its aim is to answer the following question: given a sparse vector $$\mathbf{x}$$, how must one project $$\mathbf{x}$$ onto a lower dimensional vector $$\mathbf{y}$$ such that $$\mathbf{x}$$ can be recovered from $$\mathbf{y}$$? The key to this question is to ensure that every unique support of $$K$$ entries of $$\mathbf{x}$$ is mapped by $$\Phi$$ to its own unique subspace of $$M$$-dimensional representations. In other words, the minimal set of column vectors of $$\Phi$$ that are linearly dependent consists of more than $$2K$$ columns.
+
+$$
+\begin{equation}
+\boldsymbol{\delta} = \textbf{M}_\Phi \textbf{x}_t - \textbf{M}_\Phi \textbf{x}_s
+\label{eq:final_delta}
+\end{equation}
+$$
 
 
 % Discuss delta in terms of singular vectors
