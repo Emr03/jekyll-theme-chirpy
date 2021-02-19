@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://0.0.0.0:4000/</id>
+  <id>https://emr03.github.io/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-02-18T14:46:59-05:00</updated>
+  <updated>2021-02-19T01:23:15-05:00</updated>
   <author>
     <name>Elsa Riachi</name>
-    <uri>http://0.0.0.0:4000/</uri>
+    <uri>https://emr03.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://emr03.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://0.0.0.0:4000/"/>
+    href="https://emr03.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <rights> © 2021 Elsa Riachi </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>The Structure of Adversarial Perturbations (Part I)</title>
-    <link href="http://0.0.0.0:4000/posts/the-structure-of-adversarial-perturbations-part1/" rel="alternate" type="text/html" title="The Structure of Adversarial Perturbations (Part I)" />
+    <link href="https://emr03.github.io/posts/the-structure-of-adversarial-perturbations-part1/" rel="alternate" type="text/html" title="The Structure of Adversarial Perturbations (Part I)" />
     <published>2021-02-13T00:00:00-05:00</published>
   
-    <updated>2021-02-13T00:00:00-05:00</updated>
+    <updated>2021-02-19T01:14:44-05:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/the-structure-of-adversarial-perturbations-part1/</id>
-    <content src="http://0.0.0.0:4000/posts/the-structure-of-adversarial-perturbations-part1/" />
+    <id>https://emr03.github.io/posts/the-structure-of-adversarial-perturbations-part1/</id>
+    <content src="https://emr03.github.io/posts/the-structure-of-adversarial-perturbations-part1/" />
     <author>
       <name>Elsa Riachi</name>
     </author>
