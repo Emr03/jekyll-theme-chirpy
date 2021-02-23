@@ -1,0 +1,19 @@
+[
+  
+  {
+    "title": "The Structure of Adversarial Perturbations (Part I)",
+    "url": "/posts/the-structure-of-adversarial-perturbations-part1/",
+    "categories": "Research",
+    "tags": "adversarial robustness",
+    "date": "2021-02-13 00:00:00 -0500",
+    
+
+
+
+
+
+    "snippet": "Adversarial vulnerability is a fundamental limitation of deep neural networks which remains poorly understood. Recent work suggests that adversarial attacks exploit the fact that non-robust models rely on superficial statistics to form predictions.$$\\newcommand\\testmacro[2]{\\mathbf{F\\alpha}(#1)^{..."
+  }
+  
+]
+
